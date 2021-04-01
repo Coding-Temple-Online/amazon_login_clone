@@ -1,0 +1,108 @@
+#logo-container {
+    margin: 20px;
+}
+
+.spacing {
+    margin-bottom: .5rem;
+}
+
+#login-form-container {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#form-container {
+    padding: 30px;
+}
+
+#submit-btn {
+    margin-bottom: 18px;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+
+#submit-btn:hover {
+    margin-bottom: 18px;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    background: linear-gradient(to bottom,#f5d78e,#eeb933)
+}
+
+.help-btn {
+    padding-left: 0;
+}
+
+h6#new {
+    text-align: center;
+}
+
+h6.new-text {
+    position: relative;
+    z-index: 1;
+    color: #767676;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h6.new-text:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+h6.new-text span {
+  background: #fff;
+  padding: 0 15px;
+}
+
+.account-btn {
+    background: linear-gradient(to bottom,#e7eaf0,#d9dce1);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    color: #111;
+}
+
+.account-btn:hover {
+    background: #82858a;
+    border-color: #a2a6ac #979aa1 #82858a;
+    border-style: solid;
+    border-width: 1px;
+    color: #111;
+}
+
+.spacer {
+    margin: 35px 0;
+}
+
+input.form-control:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+/* IF WE HAD SCSS */
+/* #submit-btn {
+    margin-bottom: 18px;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+
+    &:hover {
+        margin-bottom: 18px;
+        background-color: #f0c14b;
+        border-color: #a88734 #9c7e31 #846a29;
+        color: #111;
+        background: linear-gradient(to bottom,#f5d78e,#eeb933)
+} */
+/* IF WE HAD SCSS */
